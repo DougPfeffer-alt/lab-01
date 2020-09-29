@@ -1,7 +1,14 @@
 /* @media only screen and (max-width:768px) { */
 
+
 body {
-  width: 480px;}
+  width: 480px;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin: 0 auto; */
+}
+
 
   header {
     width: 478px;
@@ -14,7 +21,6 @@ body {
   background-color: grey;
   border-color: 1px black;
   text-align: center;
-  
   }
 
   #b {
@@ -89,17 +95,21 @@ body {
     float: left;
   }
 
-/* } */
-
 @media all and (min-width: 768px) {
+  
+  
   body {
     width: 960px;
-    margin: auto;
+    margin: 0 auto;
   }
 
   header {
     width: 960px;
   }
+
+  /* main {
+    margin: 0 auto;
+  } */
 
   #a {
     width: 960px;
