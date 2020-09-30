@@ -1,14 +1,26 @@
 /* @media only screen and (max-width:768px) { */
 
+  .content {
+    width: 480px;
+  }
+
+  /* .content > * {
+    margin: auto;
+  } */
 
 body {
-  width: 480px;
+  width: 100%;
+  text-align: center;
   /* display: block; */
   /* margin-left: auto;
   margin-right: auto; */
   /* margin: 0 auto; */
 }
 
+/* main {
+  width: 480px;
+  margin: auto;
+} */
 
   header {
     width: 478px;
@@ -98,8 +110,9 @@ body {
 @media all and (min-width: 768px) {
   
   
+
   body {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -107,9 +120,10 @@ body {
     width: 960px;
   }
 
-  /* main {
-    margin: 0 auto;
-  } */
+  .content {
+    margin: auto;
+    width: 100%;
+  }
 
   #a {
     width: 960px;
